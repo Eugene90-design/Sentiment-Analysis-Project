@@ -20,14 +20,52 @@ This project applies Natural Language Processing (NLP) techniques to classify pr
 
 ## 📊 Evaluation
 - **Metrics:** Accuracy, Precision, Recall, F1-score.
-- **Visualizations:** Word clouds and confusion matrices.
-
 ### Sample Results:
 - **LSTM Accuracy:** ~0.85
 - **BERT Accuracy:** ~0.91
 
+- BERT outperformed LSTM with slightly higher accuracy and F1-score.
+- Both models show strong performance on this binary classification task.
+
+
+- **Visualizations:** Word clouds and confusion matrices.
+### Word Cloud - Positive Reviews
+![Positive Word Cloud](images/wordcloud_positive.png)
+### Word Cloud - Negative Reviews
+![Negative Word Cloud](images/wordcloud_negative.png)
+
 ![LSTM Confusion Matrix](IMAGES/lstm_confusion_matrix.png)
 ![BERT Confusion Matrix](IMAGES/bert_confusion_matrix.png)
+
+## 🔍 Methods
+
+We applied two models:
+- A Logistic Regression with TF-IDF features.
+- A BERT transformer model fine-tuned for binary sentiment classification.
+
+## 📊 Visualizations
+
+### 🔠 Word Clouds
+
+- **Positive Reviews**  
+  The word cloud below represents the most frequent words found in positive reviews. Common positive sentiment words (e.g., "love", "great", "excellent") appear prominently.
+
+  ![Positive Word Cloud](images/wordcloud_positive.png)
+
+- **Negative Reviews**  
+  This word cloud highlights commonly used terms in negative reviews, often associated with dissatisfaction such as "bad", "poor", "disappointed".
+
+  ![Negative Word Cloud](images/wordcloud_negative.png)
+
+### 🧮 Confusion Matrix
+
+The confusion matrix below visualizes the performance of the model on the test set, showing:
+- **True Positives**: Correctly predicted positive reviews
+- **True Negatives**: Correctly predicted negative reviews
+- **False Positives** and **False Negatives** for model misclassifications.
+
+  ![Confusion Matrix](images/confusion_matrix.png)
+
 
 ## 📦 Folder Structure
 ```
