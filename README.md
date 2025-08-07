@@ -29,10 +29,7 @@ This project applies Natural Language Processing (NLP) techniques to classify pr
 
 
 - **Visualizations:** Word clouds and confusion matrices.
-### Word Cloud - Positive Reviews
-![Positive Word Cloud](images/wordcloud_positive.png)
-### Word Cloud - Negative Reviews
-![Negative Word Cloud](images/wordcloud_negative.png)
+
 
 ![LSTM Confusion Matrix](IMAGES/lstm_confusion_matrix.png)
 ![BERT Confusion Matrix](IMAGES/bert_confusion_matrix.png)
@@ -56,6 +53,10 @@ We applied two models:
   This word cloud highlights commonly used terms in negative reviews, often associated with dissatisfaction such as "bad", "poor", "disappointed".
 
   ![Negative Word Cloud](images/wordcloud_negative.png)
+
+  
+![LSTM Confusion Matrix](images/lstm_confusion_matrix.png)
+![BERT Confusion Matrix](images/bert_confusion_matrix.png)
 
 ### 🧮 Confusion Matrix
 
