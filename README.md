@@ -27,15 +27,6 @@ This project applies Natural Language Processing (NLP) techniques to classify pr
 - BERT outperformed LSTM with slightly higher accuracy and F1-score.
 - Both models show strong performance on this binary classification task.
 
-
-- **Visualizations:** Word clouds and confusion matrices.
-
-
-![LSTM Confusion Matrix](IMAGES/lstm_confusion_matrix.png)
-![BERT Confusion Matrix](IMAGES/bert_confusion_matrix.png)
-
-## 🔍 Methods
-
 We applied two models:
 - A Logistic Regression with TF-IDF features.
 - A BERT transformer model fine-tuned for binary sentiment classification.
@@ -65,7 +56,6 @@ The confusion matrix below visualizes the performance of the model on the test s
 - **True Negatives**: Correctly predicted negative reviews
 - **False Positives** and **False Negatives** for model misclassifications.
 
-  ![Confusion Matrix](images/confusion_matrix.png)
 
 
 ## 📦 Folder Structure
